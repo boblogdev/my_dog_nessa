@@ -1,0 +1,200 @@
+/* IMPORT GOOGLE FONTS OSWALD */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Courgette&family=Oswald&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 1px solid black
+}
+
+.navbar {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+
+/* Blur Navbar Logo & Add Shadow */
+.navbar .navbar-brand {
+    color: white;
+
+}
+
+.navbar .navbar-brand:hover {
+    color: #d29941;
+}
+
+.navbar-nav {
+    color: white;
+}
+
+
+button.navbar-toggler {
+    background: #d29941;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Change hyperlink colours */
+
+.navbar-nav a {
+    color: white;
+}
+
+.navbar-nav a:hover {
+    color: #d29941;
+}
+
+.navbar-nav .nav-link:hover {
+    transition: 0.5s;
+    background-color: #d0ab5c;
+    color: #000;
+}
+
+/* header */
+.jumbotron {
+    height: 95vh;
+    /* Relative Paths not Absolute */
+    background: #006189 url('https://images.unsplash.com/photo-1617699887626-f2e02718dc99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.about {
+    background: url('https://cdn.pixabay.com/photo/2016/04/01/08/47/animal-1298962_960_720.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 20%;
+}
+
+.about h2 {
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
+}
+
+.pictures h2 {
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 2px;
+    border-bottom: 1px solid white;
+}
+
+.card {
+    width: 100%;
+}
+
+.card img {
+    min-width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-text {
+    min-height: 120px;
+}
+
+.splash-image {
+    background: #006189 url('https://images.unsplash.com/photo-1617699887626-f2e02718dc99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lead {
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+    font-size: 26px;
+    text-shadow: 2px 2px 3px #000;
+    text-align: center;
+}
+
+/* Adds 54px of height before each section 
+to accomodate links
+*/
+section:before {
+    height: 54px;
+    content: "";
+    display: block;
+}
+
+.contact {
+    background: url('https://cdn.pixabay.com/photo/2022/02/01/20/20/animal-6987017_960_720.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 20%;
+}
+
+
+.footer h4 {
+    border-bottom: 1px solid white;
+}
+
+.footer .social-icons {
+    font-size: 2rem;
+}
+
+.footer .social-icons a {
+    color: white;
+}
+
+.footer .social-icons a:hover {
+    color: #d29941;
+}
+
+.footer p>a {
+    color: #d29941;
+}
+
+.footer p>a:hover {
+    color: #7e5c29;
+}
+
+/* Utilities */
+
+.bg-blue {
+    background-color: #01172F;
+}
+
+.full-view {
+    min-height: 95vh;
+}
+
+.fg-white {
+    color: white;
+}
+
+
+.section-light {
+    color: black;
+    background: white;
+}
+
+.fg-black {
+    color: black;
+}
+
+.btn-brown {
+    background-color: #d29941;
+    color: black;
+}
+
+.btn-brown:hover {
+    background-color: #a87a35;
+    color: white;
+}
